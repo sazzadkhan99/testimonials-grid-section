@@ -28,20 +28,20 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: var(--font);
+  font-family: var(--font);  
 }
 main{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 6rem;
+  margin: 2rem 3rem;
 }
 
 .content{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: auto auto;
-  gap: 2rem; 
+  gap: 2rem;
 }
 
 .avatar{
@@ -49,11 +49,13 @@ main{
   align-items: center;
 }
 img{
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
   width: 3rem;
   margin-right: 1rem;
+  
 }
-
 .title{
   color: var(--grey100);
   font-size: 1rem;
@@ -92,7 +94,7 @@ color: var(--grey500);
 .card{
    padding: 2rem;
    border-radius: .5rem;
-   box-shadow: 2rem 3rem 1.5rem var(--greyShadow);
+   box-shadow: 1rem 1rem 1.5rem var(--greyShadow);
 }
 .daniel{
   background-color: var(--purple500);
