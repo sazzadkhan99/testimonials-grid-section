@@ -73,7 +73,7 @@ color: var(--grey500);
 .desc{
   color: var(--grey100);
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 
 }
 .card:nth-child(3) p.desc,
@@ -145,3 +145,4 @@ color: var(--grey500);
     background-image: none;    
 }
 }
+
