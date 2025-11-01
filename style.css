@@ -66,14 +66,14 @@ color: var(--grey500);
 }
 .title span{
   display: block;
-  margin-top: .4rem;
-  font-size: .8rem;
+  margin-top: .2rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 .desc{
   color: var(--grey100);
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
 
 }
 .card:nth-child(3) p.desc,
@@ -93,7 +93,7 @@ color: var(--grey500);
 }
 
 .card{
-   padding: 2rem;
+   padding: 2rem 3rem;
    border-radius: .5rem;
    box-shadow: 1rem 1rem 1.5rem var(--greyShadow);
 }
@@ -145,4 +145,3 @@ color: var(--grey500);
     background-image: none;    
 }
 }
-
