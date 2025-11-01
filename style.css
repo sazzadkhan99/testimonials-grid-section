@@ -46,7 +46,6 @@ main{
 
 .avatar{
   display: flex;
-  align-items: center;
 }
 img{
   max-width: 100%;
@@ -67,12 +66,14 @@ color: var(--grey500);
 }
 .title span{
   display: block;
+  margin-top: .4rem;
   font-size: .8rem;
   font-weight: 300;
 }
 .desc{
   color: var(--grey100);
   font-size: 1rem;
+  line-height: 1.5rem;
 
 }
 .card:nth-child(3) p.desc,
@@ -140,4 +141,7 @@ color: var(--grey500);
     grid-column: 1;
     grid-row:  auto;
   }
+  .daniel{
+    background-image: none;    
+}
 }
