@@ -37,6 +37,7 @@ body{
   place-content: center;
   padding: 3rem 2rem;
   gap: 1.5rem;
+  width: min(98%, 1280px);
 }
 
 .testimonial{
@@ -77,7 +78,7 @@ body{
 
 .profile h3{
   color:  var(--grey100);
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 .profile h3 span{
@@ -104,7 +105,8 @@ body{
 }
 .desc{
   color: var(--grey200);
-  font-size: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.2;
 }
 
 .testimonial:nth-child(3) .bold,
