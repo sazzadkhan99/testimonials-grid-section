@@ -87,12 +87,10 @@ body{
   font-weight: normal;
   display: block;
 }
-.testimonial:nth-child(3) .profile h3,
-.testimonial:nth-child(5) .profile h3{
+.white-bg-pf h1{
   color: var(--grey500);
 }
-.testimonial:nth-child(3) .profile h3 span,
-.testimonial:nth-child(5) .profile h3 span{
+.white-bg-pf h1 span{
   color: var(--grey400);
 }
 
@@ -109,12 +107,10 @@ body{
   line-height: 1.2;
 }
 
-.testimonial:nth-child(3) .bold,
-.testimonial:nth-child(5) .bold{
+.white-bg .bold{
   color: var(--grey500);
 }
-.testimonial:nth-child(3) .desc,
-.testimonial:nth-child(5) .desc{
+.white-bg .desc{
   color: var(--grey400);
 }
 
