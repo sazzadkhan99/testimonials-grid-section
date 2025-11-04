@@ -37,7 +37,7 @@ body{
   place-content: center;
   padding: 3rem 2rem;
   gap: 1.5rem;
-  width: min(98%, 1280px);
+  width: min(98%, 80rem);
 }
 
 .testimonial{
