@@ -76,12 +76,12 @@ body{
   border-color: var(--purple300);
 }
 
-.profile h3{
+.profile h1{
   color:  var(--grey100);
   font-size: 1.1rem;
   font-weight: 500;
 }
-.profile h3 span{
+.profile h1 span{
   color: var(--grey200);
   font-size: 1rem;
   font-weight: normal;
